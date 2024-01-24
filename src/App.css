@@ -1,0 +1,77 @@
+.App {
+  text-align: center;;
+  margin-top: 20px;
+  
+}
+
+.app-logo {
+  width: 70px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.submit-button {
+  margin-top: 20px; /* Adjust the margin-top value to move the button down as desired */
+  margin-bottom: 50px;
+  background-color: #007BFF; /* Background color */
+  color: #fff; /* Text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Add padding around the text */
+  font-size: 16px; /* Adjust the font size */
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background-color 0.3s; /* Add a smooth transition effect on hover */
+}
+
+.output {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.custom-dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-dropdown option {
+  font-size: 16px;
+}
+
+.custom-dropdown:hover,
+.custom-dropdown:focus {
+  border-color: #007BFF; 
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
