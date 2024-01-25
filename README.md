@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # stock_advisor_frontend
 =======
 # Getting Started with Create React App
